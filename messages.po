@@ -405,10 +405,6 @@ msgid ""
 " in the next question.\n"
 msgstr ""
 
-#: trac/admin/console.py:360
-msgid "Repository type [%(default)s]> "
-msgstr "Navegar el repositorio en la ruta %(path)s"
-
 #: trac/admin/console.py:362
 msgid ""
 "\n"
