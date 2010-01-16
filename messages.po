@@ -29,6 +29,18 @@ msgstr ""
 msgid "About Trac"
 msgstr "Acerca de Trac"
 
+#: trac/db_default.py:171
+msgid "Active Tickets"
+msgstr "Casos Activos"
+
+#: trac/db_default.py:173
+msgid "List all active tickets by priority."
+msgstr "Lista todo los casos activos por prioridad."
+
+#: trac/db_default.py:174
+msgid "Color each row based on priority."
+msgstr "El color de cada fila esta basado en la prioridad."
+
 #: trac/attachment.py:148
 #, python-format
 msgid "Attachment '%(title)s' does not exist."
@@ -142,7 +154,7 @@ msgstr "Nombre"
 
 #: trac/attachment.py:884
 msgid "Size"
-msgstr ""
+msgstr "Tamaño"
 
 #: trac/attachment.py:884 trac/templates/history_view.html:29
 #: trac/versioncontrol/templates/revisionlog.html:98
@@ -365,7 +377,7 @@ msgstr ""
 #: trac/admin/console.py:339
 #, python-format
 msgid "Project Name [%(default)s]> "
-msgstr ""
+msgstr "Nombre del Proyecto [%(default)s]> "
 
 #: trac/admin/console.py:341
 msgid ""
@@ -864,7 +876,7 @@ msgstr "Completado"
 #: trac/admin/templates/admin_milestones.html:103
 #, fuzzy
 msgid "Tickets"
-msgstr "Ticket"
+msgstr "Casos"
 
 #: trac/admin/templates/admin_perms.html:13
 msgid "Manage Permissions"
@@ -2239,11 +2251,11 @@ msgstr "Tipo:"
 
 #: trac/ticket/api.py:291
 msgid "Status"
-msgstr ""
+msgstr "Estado"
 
 #: trac/ticket/api.py:316
 msgid "Keywords"
-msgstr ""
+msgstr "Palabras Claves"
 
 #: trac/ticket/api.py:317
 msgid "Cc"
@@ -2441,7 +2453,7 @@ msgstr "Texto delimitado por tabulaciones"
 
 #: trac/ticket/query.py:847 trac/ticket/report.py:64
 msgid "View Tickets"
-msgstr "Ver tickets"
+msgstr "Ver Caso"
 
 #: trac/ticket/query.py:1054 trac/ticket/query.py:1065
 #: trac/ticket/report.py:126
@@ -2769,7 +2781,7 @@ msgstr ""
 
 #: trac/ticket/web_ui.py:1101
 msgid "Tickets must contain a summary."
-msgstr "Los tickets deben cntener un sumario."
+msgstr "Los casos deben cntener un sumario."
 
 #: trac/ticket/web_ui.py:1124
 #, python-format
@@ -3309,7 +3321,7 @@ msgstr "diff"
 
 #: trac/ticket/templates/ticket.html:214 trac/ticket/templates/ticket.html:269
 msgid "Reply"
-msgstr ""
+msgstr "Responder"
 
 #: trac/ticket/templates/ticket.html:214
 msgid "Reply, quoting this description"
@@ -3441,7 +3453,7 @@ msgid ""
 "[1:Note:] See\n"
 "        [2:TracTickets] for help on using\n"
 "        tickets."
-msgstr "para obtener ayuda sobre cómo usar tickets."
+msgstr "para obtener ayuda sobre cómo usar los casos."
 
 #: trac/ticket/templates/ticket_notify_email.txt:9
 msgid "Changes (by"
@@ -3509,11 +3521,11 @@ msgstr ""
 
 #: trac/timeline/templates/timeline.html:37
 msgid "Today"
-msgstr ""
+msgstr "Para el día de Hoy"
 
 #: trac/timeline/templates/timeline.html:37
 msgid "Yesterday"
-msgstr ""
+msgstr "Para el día de Ayer"
 
 #: trac/timeline/templates/timeline.html:54
 #, fuzzy
@@ -3630,7 +3642,7 @@ msgstr "Ruta"
 #: trac/versioncontrol/api.py:139
 #, python-format
 msgid "Unsupported version control system \"%(name)s\": \"%(error)s\" "
-msgstr ""
+msgstr "Sistema de control de versiones no soportado \"%(name)s\" \"%(error)s\"  "
 
 #: trac/versioncontrol/api.py:143
 #, python-format
