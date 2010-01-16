@@ -406,7 +406,6 @@ msgid ""
 msgstr ""
 
 #: trac/admin/console.py:360
-#, fuzzy, python-format
 msgid "Repository type [%(default)s]> "
 msgstr "Navegar el repositorio en la ruta %(path)s"
 
