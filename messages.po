@@ -2268,24 +2268,9 @@ msgstr ""
 msgid "The ticket will be disowned"
 msgstr "El ticket se quedará sin dueño"
 
-#: trac/ticket/default_workflow.py:246 trac/ticket/default_workflow.py:260
-#, fuzzy, python-format
-msgid "The owner will change from %(current_owner)s"
-msgstr "El dueño cambiará a %(name)s"
-
-#: trac/ticket/default_workflow.py:251
-#, fuzzy, python-format
-msgid "The owner will change from %(current_owner)s to %(selected_owner)s"
-msgstr "El dueño cambiará a %(name)s"
-
 #: trac/ticket/default_workflow.py:256
 msgid "to "
 msgstr "a "
-
-#: trac/ticket/default_workflow.py:264
-#, fuzzy, python-format
-msgid "The owner will change from %(current_owner)s to %(authname)s"
-msgstr "El dueño cambiará a %(name)s"
 
 #: trac/ticket/default_workflow.py:274
 msgid ""
@@ -2293,29 +2278,9 @@ msgid ""
 "(configuration issue, please contact your Trac admin)."
 msgstr ""
 
-#: trac/ticket/default_workflow.py:279
-#, fuzzy, python-format
-msgid "The resolution will be set to %(name)s"
-msgstr "La resolución será establecida a %(name)s"
-
 #: trac/ticket/default_workflow.py:289
 msgid "The resolution will be set"
 msgstr "La resolución será establecida"
-
-#: trac/ticket/default_workflow.py:295
-#, fuzzy, python-format
-msgid "Next status will be '%(name)s'"
-msgstr "El siguiente estado será '%(name)s'"
-
-#: trac/ticket/model.py:110
-#, fuzzy, python-format
-msgid "Ticket %(id)s does not exist."
-msgstr "El reporte %(num)s no existe."
-
-#: trac/ticket/model.py:111
-#, fuzzy
-msgid "Invalid ticket number"
-msgstr "Número de reporte invalido"
 
 #: trac/ticket/model.py:147
 msgid "Multi-values fields not supported yet"
