@@ -2350,11 +2350,6 @@ msgstr ""
 msgid "Page %(page)s is beyond the number of pages in the query"
 msgstr ""
 
-#: trac/ticket/query.py:558
-#, fuzzy, python-format
-msgid "Invalid ticket id list: %(value)s"
-msgstr "Página invalida Wiki: %(message)s"
-
 #: trac/ticket/query.py:657 trac/ticket/query.py:665
 msgid "contains"
 msgstr "contiene"
@@ -2697,11 +2692,6 @@ msgstr "Historial del ticket"
 #, fuzzy, python-format
 msgid "Ticket #%(num)s, comment %(cnum)d"
 msgstr "Ticket #%(num)s: %(summary)s"
-
-#: trac/ticket/web_ui.py:982
-#, fuzzy
-msgid "Ticket Comment Diff"
-msgstr "Diff de ticket"
 
 #: trac/ticket/web_ui.py:1068
 #, fuzzy
@@ -3298,13 +3288,6 @@ msgstr "Conjunto de cambios %(id)s para %(path)s"
 #, python-format
 msgid ""
 "Version %(version)s, edited %(date)s ago\n"
-"                      by %(author)s"
-msgstr ""
-
-#: trac/ticket/templates/ticket.html:280
-#, python-format
-msgid ""
-"Last edited %(date)s ago\n"
 "                      by %(author)s"
 msgstr ""
 
