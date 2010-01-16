@@ -1096,11 +1096,6 @@ msgstr ""
 msgid "Invalid unified diff content"
 msgstr "El contenido del diff modo unificado es inválido"
 
-#: trac/mimeview/patch.py:163
-#, fuzzy, python-format
-msgid "new file %(new)s"
-msgstr "falló svn blame: %(error)s"
-
 #: trac/mimeview/patch.py:167
 #, python-format
 msgid "deleted file %(deleted)s"
