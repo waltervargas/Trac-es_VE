@@ -2687,12 +2687,6 @@ msgstr "Diff de ticket"
 msgid "Ticket Comment History"
 msgstr "Historial del ticket"
 
-#: trac/ticket/web_ui.py:903 trac/ticket/web_ui.py:927
-#: trac/ticket/web_ui.py:984
-#, fuzzy, python-format
-msgid "Ticket #%(num)s, comment %(cnum)d"
-msgstr "Ticket #%(num)s: %(summary)s"
-
 #: trac/ticket/web_ui.py:1068
 #, fuzzy
 msgid "No permission to edit the ticket description."
