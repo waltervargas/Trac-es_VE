@@ -3273,11 +3273,6 @@ msgstr "en respuesta a:"
 msgid "follow-up"
 msgstr "follow-up"
 
-#: trac/ticket/templates/ticket.html:257
-#, fuzzy, python-format
-msgid "Changed %(date)s ago by %(author)s"
-msgstr "Conjunto de cambios %(id)s para %(path)s"
-
 #: trac/ticket/templates/ticket.html:276
 #, python-format
 msgid ""
