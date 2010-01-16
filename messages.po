@@ -1096,11 +1096,6 @@ msgstr ""
 msgid "Invalid unified diff content"
 msgstr "El contenido del diff modo unificado es inválido"
 
-#: trac/mimeview/patch.py:167
-#, python-format
-msgid "deleted file %(deleted)s"
-msgstr ""
-
 #: trac/mimeview/patch.py:239
 msgid "this hunk was shorter than expected"
 msgstr ""
